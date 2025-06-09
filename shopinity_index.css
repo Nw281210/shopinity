@@ -1,0 +1,78 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+.logo {
+    height: 50px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: #e0f0ff;
+}
+.produkte {
+    padding: 40px 20px;
+    background: #fff;
+}
+.produkt-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.produkt {
+    background: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    width: calc(50% - 10px);
+}
+.produkt img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    background: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.ueber-mich, .kontakt {
+    padding: 40px 20px;
+    background: #f9f9f9;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
+footer a {
+    color: #ccc;
+    margin: 0 5px;
+    text-decoration: none;
+}
